@@ -3,15 +3,8 @@
 require 'rubygems'
 require 'hoe'
 
-# Hoe.plugin :bundler
-# Hoe.plugin :compiler
-# Hoe.plugin :gem_prelude_sucks
-# Hoe.plugin :gemspec
-# Hoe.plugin :inline
-# Hoe.plugin :isolate
-# Hoe.plugin :racc
-# Hoe.plugin :rcov
-# Hoe.plugin :rubyforge
+Hoe.plugin :bundler
+Hoe.plugin :gemspec
 
 Hoe.spec 'zenweb-haml' do
   developer('Mike Dalessio', 'mike.dalessio@gmail.com')
@@ -19,7 +12,8 @@ Hoe.spec 'zenweb-haml' do
   self.readme_file  = 'README.md'
   self.history_file = 'CHANGELOG.md'
 
-  self.extra_deps << ["haml", ">= 0"]
+  self.extra_deps << ["haml",   ">= 0"]
+  self.extra_deps << ["zenweb", ">= 3.0.0.b1"]
 end
 
 # vim: syntax=ruby
