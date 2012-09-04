@@ -2,15 +2,15 @@
 
 * https://github.com/flavorjones/zenweb-haml
 
+
+## DESCRIPTION
+
+A plugin for Zenweb to render HAML documents.
+
 Related:
 
 * http://zenspider.com/projects/zenweb.html
 * http://haml.info
-
-
-## DESCRIPTION
-
-This is a plugin for [Zenweb](http://zenspider.com/projects/zenweb.html) that renders HAML.
 
 
 ## FEATURES/PROBLEMS
