@@ -14,13 +14,10 @@ require 'hoe'
 # Hoe.plugin :rubyforge
 
 Hoe.spec 'zenweb-haml' do
-  # HEY! If you fill these out in ~/.hoe_template/Rakefile.erb then
-  # you'll never have to touch them again!
-  # (delete this comment too, of course)
+  developer('Mike Dalessio', 'mike.dalessio@gmail.com')
 
-  # developer('FIX', 'FIX@example.com')
-
-  # self.rubyforge_name = 'zenweb-hamlx' # if different than 'zenweb-haml'
+  self.readme_file  = 'README.md'
+  self.history_file = 'CHANGELOG.md'
 end
 
 # vim: syntax=ruby

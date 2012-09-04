@@ -1,41 +1,43 @@
 # zenweb-haml
 
-* FIX (url)
+* https://github.com/flavorjones/zenweb-haml
+
+Related:
+
+* http://zenspider.com/projects/zenweb.html
+* http://haml.info
+
 
 ## DESCRIPTION
 
-FIX (describe your package)
+This is a plugin for [Zenweb](http://zenspider.com/projects/zenweb.html) that renders HAML.
+
 
 ## FEATURES/PROBLEMS
 
-* FIX (list of features or problems)
+* Renders HAML documents to HTML within the framework of a Zenweb site.
+
 
 ## SYNOPSIS
 
-  FIX (code sample of usage)
+If you've got a Zenweb site, create a file with a `.haml` extension and render it.
+
 
 ## REQUIREMENTS
 
-* FIX (list of requirements)
+* the `haml` gem
+
 
 ## INSTALL
 
-* FIX (sudo gem install, anything else)
+* `gem install zenweb-haml`
 
-## DEVELOPERS
-
-After checking out the source, run:
-
-  $ rake newb
-
-This task will install any missing dependencies, run the tests/specs,
-and generate the RDoc.
 
 ## LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2012 FIX
+Copyright (c) 2012, Mike Dalessio
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

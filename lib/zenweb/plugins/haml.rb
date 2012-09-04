@@ -1,7 +1,10 @@
 require 'haml'
 
-class Zenweb::Page
+module Zenweb::Haml
+  VERSION = '0.0.1'
+end
 
+class Zenweb::Page
   ##
   # Render haml page content using Haml.
 
