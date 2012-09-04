@@ -18,6 +18,8 @@ Hoe.spec 'zenweb-haml' do
 
   self.readme_file  = 'README.md'
   self.history_file = 'CHANGELOG.md'
+
+  self.extra_deps << ["haml", ">= 0"]
 end
 
 # vim: syntax=ruby
