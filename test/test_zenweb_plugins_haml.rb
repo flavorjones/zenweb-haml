@@ -4,18 +4,15 @@ require "rubygems"
 require "minitest/autorun"
 
 require "zenweb/site"
-require "test/helper"
 
 class TestZenwebPageHaml < MiniTest::Unit::TestCase
-  include ChdirTest("example-site")
-
   attr_accessor :site, :page
 
   def setup
     super
 
     self.site = Zenweb::Site.new
-    self.page = Zenweb::Page.new site, "pages/haml-devs-need-to-look-at-ruby-warnings.html.haml"
+    self.page = Zenweb::Page.new site, File.join(File.dirname(__FILE__), "assets/foo.html.haml")
   end
 
   def test_render_haml
